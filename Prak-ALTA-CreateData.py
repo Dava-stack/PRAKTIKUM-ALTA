@@ -12,9 +12,8 @@ k.execute("""
           model,
           price
           )
-          VALUES ('101','BMW F30','BMW','F30',20000),
-                 ('102','BMW F10','BMW','F10',25000)
-          )
+    VALUES ('101','BMW F30','BMW','F30',20000),
+           ('102','BMW F10','BMW','F10',25000)
           """)
 
 connect_to_db.commit()
